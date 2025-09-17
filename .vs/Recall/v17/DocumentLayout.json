@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\h703203058\\Recall\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerMovement.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\ObjectMover.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ObjectMover.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerCam.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerCam.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\MoveCamera.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MoveCamera.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +31,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ObjectMover.cs",
-              "DocumentMoniker": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\ObjectMover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectMover.cs",
-              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\ObjectMover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerMovement.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T15:47:04.729Z",
+              "WhenOpened": "2025-09-17T16:17:27.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoveCamera.cs",
+              "DocumentMoniker": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\MoveCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoveCamera.cs",
+              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\MoveCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoveCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:56:55.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCam.cs",
+              "DocumentMoniker": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerCam.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCam.cs",
+              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerCam.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:36:55.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObjectMover.cs",
+              "DocumentMoniker": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\ObjectMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectMover.cs",
+              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\ObjectMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectMover.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T15:47:04.729Z",
+              "EditorCaption": ""
             }
           ]
         }
