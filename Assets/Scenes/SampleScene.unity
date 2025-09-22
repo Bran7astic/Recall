@@ -415,6 +415,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -511,6 +512,19 @@ MonoBehaviour:
   sensX: 1000
   sensY: 1000
   orientation: {fileID: 281068915}
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988b64e3268995a4e9dc9bafa0f1f707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
 --- !u!1 &1494480945
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +539,7 @@ GameObject:
   - component: {fileID: 1494480946}
   m_Layer: 7
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Undeletable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
