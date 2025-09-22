@@ -26,24 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerMovement.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\h703203058\\Recall\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T16:17:27.326Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:56:55.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T15:56:55.623Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerCam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:36:55.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T15:36:55.822Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectMover.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAiwFEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T15:47:04.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T15:47:04.729Z"
             }
           ]
         }
