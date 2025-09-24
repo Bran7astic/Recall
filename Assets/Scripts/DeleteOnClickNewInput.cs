@@ -36,8 +36,8 @@ public class DeleteOnClickNewInput : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(screenPos);
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            if (hit.collider.CompareTag("Undeletable")) return;
-            Destroy(hit.collider.gameObject);
+            if (hit.collider.CompareTag("Collectible")) // Check if item is Collectible
+                Destroy (hit.collider.gameObject);
         }
     }
 }

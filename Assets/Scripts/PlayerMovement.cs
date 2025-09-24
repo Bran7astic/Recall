@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     [Header("Movement")]
-    public float moveSpeed;
+    public float moveSpeed = 2f;
 
 
     public float groundDrag;
@@ -55,6 +55,12 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = groundDrag;
         else 
             rb.drag = 0;
+
+        if (Input.GetKey(KeyCode.LeftShift)) {
+            moveSpeed = 4f;
+        } else {
+            moveSpeed = 2f;
+        }
         
     }
 
