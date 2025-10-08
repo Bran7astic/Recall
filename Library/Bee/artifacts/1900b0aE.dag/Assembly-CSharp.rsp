@@ -360,10 +360,6 @@
 "Assets/Scripts/Collect.cs"
 "Assets/Scripts/Interactions/Collectible.cs"
 "Assets/Scripts/Interactions/Interactable.cs"
-"Assets/Scripts/obj/Debug/net10.0/DeleteOnClickNewInput.AssemblyInfo.cs"
-"Assets/Scripts/obj/Debug/net10.0/DeleteOnClickNewInput.GlobalUsings.g.cs"
-"Assets/Scripts/obj/Debug/net10.0/PlayerCam.AssemblyInfo.cs"
-"Assets/Scripts/obj/Debug/net10.0/PlayerCam.GlobalUsings.g.cs"
 "Assets/Scripts/ObjectMover.cs"
 "Assets/Scripts/Player/DeleteOnClickNewInput.cs"
 "Assets/Scripts/Player/MoveCamera.cs"
@@ -381,6 +377,7 @@
 /nowarn:0282
 /nowarn:1701
 /nowarn:1702
+-langversion:10
 /utf8output
 /preferreduilang:en-US
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"

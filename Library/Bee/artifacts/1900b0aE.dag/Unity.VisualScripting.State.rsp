@@ -389,6 +389,7 @@
 /nowarn:0282
 /nowarn:1701
 /nowarn:1702
+-langversion:10
 /utf8output
 /preferreduilang:en-US
 -warn:0
