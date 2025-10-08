@@ -12,7 +12,21 @@ public class Collectible : MonoBehaviour, Interactable
 
     public void Interact()
     {
-        Debug.Log(this.gameObject);
+
+        GameObject player = GameObject.FindWithTag("Player");
+        PlayerInventory playerInventory = player.GetComponent<PlayerInventory>();
+
+        if (playerInventory != null)
+        {
+            playerInventory.AddItem(this.gameObject.name);
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            Debug.LogError("Interacted with something other than the Player");
+        }
+
+
     }
 
     // Update is called once per frame

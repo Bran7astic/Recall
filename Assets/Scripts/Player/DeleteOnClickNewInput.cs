@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;  // New Input System
 
@@ -26,11 +27,6 @@ public class DeleteOnClickNewInput : MonoBehaviour
         }
     }
 
-    private void AddToInventory(GameObject item) {
-        if (playerInventory != null) {
-            playerInventory.AddItem(item.name);
-        }
-    }
 
     private void TryDeleteAtScreenPos(Vector2 screenPos)
     {
@@ -39,9 +35,18 @@ public class DeleteOnClickNewInput : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(screenPos);
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            if (hit.collider.CompareTag("Collectible")) { // Check if item is Collectible
-                AddToInventory(hit.collider.gameObject);
-                Destroy (hit.collider.gameObject);
+
+            Interactable interactable = hit.collider.gameObject.GetComponent<Interactable>() ??
+                                        hit.collider.gameObject.GetComponentInParent<Interactable>();
+            // Debug.Log("Interactable?: " + interactable);
+
+            if (interactable != null)
+            {
+                interactable.Interact();
+            }
+            else
+            {
+                Debug.Log($"Hit {hit.collider.name}, but it's not interactable");
             }
         }
     }
