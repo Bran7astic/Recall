@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Undeletable
   - Collectible
+  - Draggable
   layers:
   - Default
   - TransparentFX

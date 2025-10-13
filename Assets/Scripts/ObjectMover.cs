@@ -18,7 +18,7 @@ public class ObjectMover : MonoBehaviour
 
     void Update()
     {
-        HandleKeyboardMovement();
+        // HandleKeyboardMovement();
         HandleMouseMovement();
     }
 
