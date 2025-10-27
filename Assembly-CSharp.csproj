@@ -79,7 +79,9 @@
     <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\BOXOPHOBIC\Utils\Shaders\Channel Preview.shader" />
     <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Blend.shader" />
+    <None Include="Assets\UI Toolkit\GUIVisualTree.uxml" />
     <None Include="Assets\csc.rsp" />
+    <None Include="Assets\GUIStyle.uss" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
