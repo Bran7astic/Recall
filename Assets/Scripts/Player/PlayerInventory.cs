@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,21 +6,27 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
 
-    public List<string> inventory;
+    public HashSet<string> inventory = new HashSet<string>();
+    public event Action OnInventoryChanged;
 
-    public void AddItem(string itemName) {
-        inventory.Add(itemName);
+    public void AddItem(string itemName)
+    {
+        if (inventory.Add(itemName))
+        {
+            Debug.Log(inventory);
+            OnInventoryChanged?.Invoke();
+        }
+    }
+    
+    public void RemoveItem(string itemName) {
+        if (inventory.Remove(itemName))
+        {
+            OnInventoryChanged?.Invoke();
+        }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public bool HasItem(string item)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return inventory.Contains(item);
     }
 }
