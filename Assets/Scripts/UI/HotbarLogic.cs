@@ -31,29 +31,18 @@ public class HotbarLogic : MonoBehaviour
         var redMemory = root.Q<VisualElement>("RedMemory");
         var blueMemory = root.Q<VisualElement>("BlueMemory");
 
-        greenMemory.style.display = playerInventory.HasItem("GreenMemory") 
-        ? DisplayStyle.Flex
-        : DisplayStyle.None;
-
-        redMemory.style.display = playerInventory.HasItem("RedMemory") 
-        ? DisplayStyle.Flex
-        : DisplayStyle.None;
-
-        blueMemory.style.display = playerInventory.HasItem("BlueMemory") 
-        ? DisplayStyle.Flex
-        : DisplayStyle.None;
+        ToggleVisibility(greenMemory, "GreenMemory");
+        ToggleVisibility(redMemory, "RedMemory");
+        ToggleVisibility(blueMemory, "BlueMemory");
 
     }
-    
 
-    void Start()
+    void ToggleVisibility(VisualElement element, string item)
     {
-        
+        if (playerInventory.HasItem(item)) {
+            element.RemoveFromClassList("hidden");
+            element.AddToClassList("visible");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
