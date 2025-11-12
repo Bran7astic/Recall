@@ -391,6 +391,7 @@
 "Assets/Scripts/Interactions/Interactable.cs"
 "Assets/Scripts/ObjectMover.cs"
 "Assets/Scripts/Objects/RotateObject.cs"
+"Assets/Scripts/Objects/SpawnOnCollide.cs"
 "Assets/Scripts/Player/AddToInventory.cs"
 "Assets/Scripts/Player/MoveCamera.cs"
 "Assets/Scripts/Player/ObjectDragger.cs"

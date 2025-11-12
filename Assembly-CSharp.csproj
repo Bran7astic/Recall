@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Collect.cs" />
     <Compile Include="Assets\Scripts\UI\HotbarLogic.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\Objects\SpawnOnCollide.cs" />
     <Compile Include="Assets\Scripts\ObjectMover.cs" />
     <Compile Include="Assets\Scripts\Player\AddToInventory.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
