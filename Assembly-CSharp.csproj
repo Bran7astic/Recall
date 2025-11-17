@@ -68,11 +68,14 @@
     <Compile Include="Assets\Scripts\Interactions\Collectible.cs" />
     <Compile Include="Assets\Scripts\Interactions\Interactable.cs" />
     <Compile Include="Assets\Scripts\Player\MoveCamera.cs" />
+    <Compile Include="Assets\Scripts\MenuController\MenuController.cs" />
     <Compile Include="Assets\Scripts\Collect.cs" />
     <Compile Include="Assets\Scripts\UI\HotbarLogic.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
     <Compile Include="Assets\Scripts\Objects\SpawnOnCollide.cs" />
+    <Compile Include="Assets\Scripts\Objects\Trigger.cs" />
     <Compile Include="Assets\Scripts\ObjectMover.cs" />
+    <Compile Include="Assets\Scripts\Objects\CameraRotate.cs" />
     <Compile Include="Assets\Scripts\Player\AddToInventory.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />

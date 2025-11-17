@@ -67,7 +67,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+        grounded = Physics.CheckSphere(
+            transform.position - new Vector3(0, playerHeight * 0.5f, 0),
+            0.3f,
+            whatIsGround);
         MyInput();
 
         if (grounded)
