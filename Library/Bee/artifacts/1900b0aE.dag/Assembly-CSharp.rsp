@@ -402,6 +402,7 @@
 "Assets/Scripts/Player/PlayerInventory.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/UI/HotbarLogic.cs"
+"Assets/Scripts/UI/TitleLogic.cs"
 -langversion:9.0
 /deterministic
 /optimize+

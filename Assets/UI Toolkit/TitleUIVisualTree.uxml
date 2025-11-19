@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:Label tabindex="-1" text="Recall" name="title" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: center; justify-content: center; align-self: center; font-size: 238px; color: rgb(255, 255, 255); -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=3c7600bdb4bd0824291b7217def7e19a&amp;type=3#NotInter-Regular&quot;); text-shadow: 0 15px 86.9px rgb(0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>
