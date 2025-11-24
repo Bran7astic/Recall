@@ -9,6 +9,13 @@ public class Trigger : MonoBehaviour
     public string targetTag = "RockCollider";
 
     private bool triggered = false;
+    private GameObject blueMemory;
+
+    void Start()
+    {
+        blueMemory = GameObject.Find("BlueMemory");
+        blueMemory?.SetActive(false);
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -22,7 +29,8 @@ public class Trigger : MonoBehaviour
 
     void TriggerEvent()
     {
-        Debug.Log("Rock is in place");
+        Debug.Log("Spawning Blue Memory");
+        blueMemory?.SetActive(true);
     }
 
 }
