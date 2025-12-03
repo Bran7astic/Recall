@@ -5,6 +5,9 @@
     height: 50px;
 }
 
-.text (
-    
-)
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    -unity-font-style: bold;
+    -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=3c7600bdb4bd0824291b7217def7e19a&type=3#NotInter-Regular");
+}
