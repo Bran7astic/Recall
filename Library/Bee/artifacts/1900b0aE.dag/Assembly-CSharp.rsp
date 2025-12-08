@@ -389,6 +389,7 @@
 "Assets/Scripts/Collect.cs"
 "Assets/Scripts/Interactions/Collectible.cs"
 "Assets/Scripts/Interactions/Interactable.cs"
+"Assets/Scripts/Interactions/Progressor.cs"
 "Assets/Scripts/MenuController/MenuController.cs"
 "Assets/Scripts/ObjectMover.cs"
 "Assets/Scripts/Objects/CameraRotate.cs"
@@ -403,6 +404,7 @@
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/UI/HotbarLogic.cs"
 "Assets/Scripts/UI/TitleLogic.cs"
+"Assets/Scripts/UI/UIManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -1,27 +1,27 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/ControlsUSS.uss?fileID=7433441132597879392&amp;guid=1139c302881d57941a9ca2786ab29f10&amp;type=3#ControlsUSS" />
-    <ui:VisualElement name="ControlsContainer" style="flex-grow: 1; width: 349px; height: 50%; align-items: center; padding-bottom: 519px; margin-top: 19px; margin-left: 19px; justify-content: center; align-self: flex-start;">
-        <ui:VisualElement name="ControlBox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
+    <ui:VisualElement name="ControlsContainer" style="flex-grow: 1; width: 347px; height: 50%; align-items: center; padding-bottom: 519px; margin-top: 19px; margin-left: 19px; justify-content: center; align-self: flex-start; flex-wrap: nowrap; flex-direction: column;">
+        <ui:VisualElement name="ControlBox" class="controlbox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" style="background-image: url(&quot;project://database/Assets/Double/keyboard_w.png?fileID=2800000&amp;guid=3e531782080371a40bc93949887f5e0a&amp;type=3#keyboard_w&quot;);" />
             <ui:Label tabindex="-1" text="Move Forward" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="text" />
         </ui:VisualElement>
-        <ui:VisualElement name="ControlBox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
+        <ui:VisualElement name="ControlBox" class="controlbox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" style="background-image: url(&quot;project://database/Assets/Double/keyboard_a.png?fileID=2800000&amp;guid=c053feb1dd5763f4aa96f9ed4a2845c4&amp;type=3#keyboard_a&quot;);" />
             <ui:Label tabindex="-1" text="Move Left" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="text" />
         </ui:VisualElement>
-        <ui:VisualElement name="ControlBox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
+        <ui:VisualElement name="ControlBox" class="controlbox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" style="background-image: url(&quot;project://database/Assets/Double/keyboard_s.png?fileID=2800000&amp;guid=e3bedf19be9bfe14dba983566b8ecabf&amp;type=3#keyboard_s&quot;);" />
             <ui:Label tabindex="-1" text="Move Backward" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="text" />
         </ui:VisualElement>
-        <ui:VisualElement name="ControlBox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
+        <ui:VisualElement name="ControlBox" class="controlbox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" style="background-image: url(&quot;project://database/Assets/Double/keyboard_d.png?fileID=2800000&amp;guid=51cb26194eb64a345b1b6dda65f483f0&amp;type=3#keyboard_d&quot;);" />
             <ui:Label tabindex="-1" text="Move Right" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="text" />
         </ui:VisualElement>
-        <ui:VisualElement name="ControlBox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
+        <ui:VisualElement name="ControlBox" class="controlbox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" style="background-image: url(&quot;project://database/Assets/Double/keyboard_space.png?fileID=2800000&amp;guid=0b195574bc3892c4eaa710a2ecd78a4d&amp;type=3#keyboard_space&quot;);" />
             <ui:Label tabindex="-1" text="Jump" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="text" />
         </ui:VisualElement>
-        <ui:VisualElement name="ControlBox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
+        <ui:VisualElement name="ControlBox" class="controlbox" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: 318px; height: 275px; align-items: center; justify-content: flex-start; align-self: stretch;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" style="background-image: url(&quot;project://database/Assets/Double/keyboard_shift_icon.png?fileID=2800000&amp;guid=e25670d5a12a17640984a0e02963d3dc&amp;type=3#keyboard_shift_icon&quot;);" />
             <ui:Label tabindex="-1" text="Sprint" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="text" />
         </ui:VisualElement>
