@@ -45,3 +45,14 @@
     opacity: 1;
     display: flex;
 }
+
+.container {
+    opacity: 1;
+    bottom: 0;
+    transition: opacity 0.2s ease-out, left 0.2s ease-out;
+}
+
+.container-hidden {
+    opacity: 0;
+    bottom: -40px;
+}

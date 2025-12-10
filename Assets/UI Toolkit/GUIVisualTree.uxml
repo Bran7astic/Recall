@@ -15,5 +15,5 @@
         </ui:VisualElement>
     </ui:Button>
     <ui:Label tabindex="-1" text="HELLO" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HoverText" class="hidden" style="align-items: center; justify-content: center; align-self: center; font-size: 102px; color: rgb(255, 255, 255); text-shadow: 0 -3.9px -3.1px rgba(0, 0, 0, 0); -unity-text-outline-width: 0; letter-spacing: 0; -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=3c7600bdb4bd0824291b7217def7e19a&amp;type=3#NotInter-Regular&quot;);" />
-    <ui:Label tabindex="-1" text="" name="interactionPrompt" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 37px; color: rgb(255, 255, 255); -unity-text-align: upper-center; text-shadow: 0 3.4px 236.1px rgb(0, 0, 0); position: absolute; align-items: center; top: 70%; left: 0; width: 100%;" />
+    <ui:Label tabindex="-1" name="interactionPrompt" parse-escape-sequences="true" display-tooltip-when-elided="true" class="container container-hidden" style="font-size: 37px; color: rgb(255, 255, 255); -unity-text-align: upper-center; text-shadow: 0 3.4px 236.1px rgb(0, 0, 0); position: absolute; align-items: center; top: 72%; left: 0; width: 100%;" />
 </ui:UXML>

@@ -41,10 +41,10 @@ public class AddToInventory : MonoBehaviour
                 hit.collider.gameObject.GetComponentInParent<Interactable>()) 
                 != null)
             {
-                interactContainer.style.display = DisplayStyle.Flex;
+                interactContainer.RemoveFromClassList("container-hidden");
             } else
             {
-                interactContainer.style.display = DisplayStyle.None;
+                interactContainer.AddToClassList("container-hidden");
             }
         }
     }

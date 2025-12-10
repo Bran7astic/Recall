@@ -24,7 +24,8 @@ public class UIManager : MonoBehaviour
     public void ShowInteractionText(string message)
     {
         interactionLabel.text = message;
-        interactionLabel.style.display = DisplayStyle.Flex;
+        Debug.Log("Removing container-hidden...");
+        interactionLabel.RemoveFromClassList("container-hidden");
     }
 
     public void ShowInteractionText(string message, float duration)
@@ -37,6 +38,6 @@ public class UIManager : MonoBehaviour
 
     public void HideInteractionText()
     {
-        interactionLabel.style.display = DisplayStyle.None;
+        interactionLabel.AddToClassList("container-hidden");
     }
 }

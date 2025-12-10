@@ -8,12 +8,19 @@ public class Progressor : MonoBehaviour, Interactable
 {
     // Start is called before the first frame update
     public string message;
-    private PlayerInventory playerInventory;
+    public PlayerInventory playerInventory;
     void Start()
     {
-        message = "You don't have any memories";
-        GameObject player = GameObject.FindWithTag("Player");
-        playerInventory = player.GetComponent<PlayerInventory>();
+
+        Debug.Log("Start running in Progressor.cs!");
+
+        // if (player != null)
+        // {
+        //     Debug.Log("Player Inventory Found");
+        // } else
+        // {
+        //     Debug.Log("No player inventory found.");
+        // }
 
         playerInventory.OnInventoryChanged += UpdateMessage;
         UpdateMessage();
@@ -27,6 +34,7 @@ public class Progressor : MonoBehaviour, Interactable
     void UpdateMessage()
     {
         int count = playerInventory.GetCount();
+        Debug.Log("Count: " + count);
 
         if (count == 1)
         {
@@ -37,6 +45,9 @@ public class Progressor : MonoBehaviour, Interactable
         } else if (count == 3)
         {
             message = "You remember the truth.";
+        } else
+        {
+            message = "You currently have no memories.";
         }
     }
 
